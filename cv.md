@@ -5,8 +5,8 @@
 ### Контактная информация:
 
 **Phone:** +37061597373<br>
-**E-mail** coolwater2401@gmail.com<br>
-**Discord** coolwater07
+**E-mail:** coolwater2401@gmail.com<br>
+**Discord:** coolwater07
 
 ### About myself
 
@@ -16,24 +16,18 @@ I work as an IT consultant with Infor software, but I'd like to get a more deman
 I have a basic knowledge of Oracle SQL, HTML / CSS, started learning JS
 
 ### Code example
-
-function ablink() {
-if (b==1) {
- document.forms[0].abutton.value = stringm[a]
-   b-- ;
-    a++;
-  if (a>4) {a = 1};}
-else {
- document.forms[0].abutton.value = "";
-   b++ }
+```javascript
+function multiply(a, b){
+  return a * b
 }
+```
 
 ### Education:
 
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 - YouTube Video Tutorials in HTML / CSS / JS
 
-### Languadges:
+### Languages:
 
 - English \- А2
 - Russian \- native speaker 
