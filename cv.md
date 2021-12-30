@@ -1,28 +1,42 @@
 
-# Давыдова Александра
+# Aleksandra Davydova
 
 
 ### Контактная информация:
 
-**Телефон:** +37061597373<br>
-**Почта** coolwater2401@gmail.com<br>
+**Phone:** +37061597373<br>
+**E-mail** coolwater2401@gmail.com<br>
+**Discord** coolwater07
 
-### Обо мне
+### About myself
 
-Я работаю IT-консультантом с програмным обеспечением Infor, но хотелось бы получить более востребованную профессию в сфере IT, иметь возможность расти и развиваться не только в одной области. Поэтому я сперва начала самостоятельно изучать HTML/CSS/JS в Ютубе. Позже узнала о RS School и решила попробовать пройти обучение. Курс по JavaScript/Front-end начала проходить второй раз, в первый раз не хватило навыков, чтобы закончить) Надеюсь, в этот раз попытка увенчается успехом, и я обрету необходимые для себя знания и умения.
+I work as an IT consultant with Infor software, but I'd like to get a more demanded profession in the IT field, to be able to develop not only in one area. So I first started learning HTML / CSS / JS on my own on YouTube. Later I found out about RS School and decided to try to study. The course on JavaScript / Front-end started for the first time, I did not have enough skills to finish). I hope this time the attempt will be crowned with success, and I will acquire the knowledge and skills necessary for myself.
 
-### Навыки
-Владею на базовом уровне Oracle SQL, HTML/CSS
+### Skills
+I have a basic knowledge of Oracle SQL, HTML / CSS, started learning JS
 
-### Обучение:
+### Code example
 
-- RS Schools Course «JavaScript/Front-end. Stage 0» (в процессе)
-- Видео-уроки на YouTube по HTML/CSS/JS
+function ablink() {
+if (b==1) {
+ document.forms[0].abutton.value = stringm[a]
+   b-- ;
+    a++;
+  if (a>4) {a = 1};}
+else {
+ document.forms[0].abutton.value = "";
+   b++ }
+}
 
-### Владею языками:
+### Education:
 
-- Английский \- А2
-- Русский \- родной 
-- Белорусский \- родной
+- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+- YouTube Video Tutorials in HTML / CSS / JS
+
+### Languadges:
+
+- English \- А2
+- Russian \- native speaker 
+- Belorussian \- native speaker
 - Polish \- A1
-- Литовский \- A1
+- Lithuanian \- A1
