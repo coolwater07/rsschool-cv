@@ -2,7 +2,7 @@
 # Aleksandra Davydova
 
 
-### Контактная информация:
+### Contact information:
 
 **Phone:** +37061597373<br>
 **E-mail:** coolwater2401@gmail.com<br>
