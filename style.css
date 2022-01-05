@@ -1,9 +1,14 @@
+header {
+  background-color: rgb(218, 197, 238);
+}
+
 body {
+background-image: url(./assets/img/background42.jpg);
 font-family: 'Roboto', sans-serif;
 font-size: 18px;
 font-weight: 400;
 line-height: 1.7;
-color: #1197f0;
+color: #f011ad;
 min-height: 100vh;
 display: flex;
 flex-direction: column;
@@ -11,6 +16,11 @@ justify-content: space-between;
 margin: 0; 
 padding: 0;
 }
+
+footer {
+  background-color:  rgb(218, 197, 238);
+  }
+
 
 @media (max-width: 768px) {
     .section {
@@ -23,18 +33,65 @@ html {
   }
 
   .section-title {
+    align-items: center;
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
-    letter: spacing 2px; 
+    letter-spacing: 2px; 
     color: #5a0447;
   }
+
+.logo {
+   height: 30px;
+   display: inline;
+   padding-top: .3125rem;
+   padding-bottom: .3125rem;
+   margin-right: 1rem;
+   font-size: 1.25rem;
+   line-height: inherit;
+    white-space: nowrap;
+    color: #1a1a1a
+    }
+
+img, svg {
+  vertical-align: middle;
+}
+
+#profile {
+  margin-top: 20px;
+/*width: max-content;*/
+display: flex;
+justify-content:center;
+align-items: center;
+flex-direction: row;
+}
+#profile img {
+  height:397px;
+  width:307px;
+  display:flex;
+  justify-content:center;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  margin: 0px 100px;
   
+}
+h1 {
+  font-size: 42px;
+  margin-top: 0px;
+}
+#contacts {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    }
 .nav-list {
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
     align-items: center;
     list-style: none;
+    flex-direction: row;
+    padding: 0px 70px;
   }
 
   .nav-link {
@@ -44,23 +101,33 @@ html {
     transition: .3s;
   }
 
-  .section-item a {
-    color: #829985;
+  .nav-item a {
+    color: #4d2323;
     text-decoration: none;  
     transition: color 0.5s;
   }
 
-  .section-item a:hover {
-    color: #4d2323;
+  .nav-item a:hover {
+    color: #f1d1d1;
   }
 
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+          }
   .main-container {
     display: flex;
+    flex-direction: column;
+    justify-content:center;
     flex-wrap: wrap;
-  }
-  
+  }  
   .section {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content:center;
   }
 * {
     box-sizing: border-box;
@@ -68,7 +135,7 @@ html {
 
   .container {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0 70px;
   }
 
   .link {
